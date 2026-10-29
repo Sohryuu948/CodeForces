@@ -7,3 +7,10 @@
 # ...and keep only C++ source files
 !*.cpp
 !.gitignore
+
+# ...and the build setup
+!CMakeLists.txt
+
+# Build output (CMake, VS Code CMake Tools)
+build/
+out/

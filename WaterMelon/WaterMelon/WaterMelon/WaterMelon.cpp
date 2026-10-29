@@ -3,13 +3,7 @@
 
 void solve(int watermelons)
 {
-    if (watermelons == 2)
-    {
-        std::cout << "NO" << '\n';
-    }
-    else
-    {
-        if (watermelons % 2 == 0)
+        if (watermelons % 2 == 0 && watermelons > 2)
         {
             std::cout << "YES" << '\n';
         }
@@ -17,7 +11,6 @@ void solve(int watermelons)
         {
             std::cout << "NO" << '\n';
         }
-    }
 }
 
 
